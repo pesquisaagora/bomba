@@ -32,6 +32,24 @@
 			checkURLParameters();
 		})();
 	</script>
+
+	<script>
+  // Script coringa para preservar UTMs em qualquer botão <a>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Obtém a query string completa da URL atual
+    const queryParams = window.location.search;
+    
+    // Seleciona todos os links com a classe 'elementor-button-link'
+    document.querySelectorAll('a.elementor-button-link').forEach(button => {
+      // Atualiza o href de cada link, preservando as UTMs
+      if (queryParams) {
+        const currentUrl = button.getAttribute('href');
+        const separator = currentUrl.includes('?') ? '&' : '?';
+        button.href = currentUrl + separator + queryParams.slice(1);
+      }
+    });
+  });
+  </script>	 
 	
 	<script type="text/javascript">
 		(function (c, l, a, r, i, t, y) {
