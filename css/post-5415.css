@@ -1,0 +1,26 @@
+.elementor-5415 .elementor-element.elementor-element-12fbf98{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-5415 .elementor-element.elementor-element-77f534e{--spacer-size:50px;}.elementor-widget-image .widget-image-caption{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-weight:var( --e-global-typography-text-font-weight );}.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );color:var( --e-global-color-primary );}.elementor-5415 .elementor-element.elementor-element-4f9eff3 .elementor-heading-title{font-family:"Poppins", Sans-serif;font-weight:600;color:#FFFFFF;}.elementor-5415 .elementor-element.elementor-element-291db61 .elementor-heading-title{font-family:"Poppins", Sans-serif;font-weight:300;color:#FFFFFF;}.elementor-5415 .elementor-element.elementor-element-c8e098b .elementor-heading-title{font-family:"Poppins", Sans-serif;font-weight:400;color:#FFFFFF;}.elementor-5415 .elementor-element.elementor-element-9876363{--spacer-size:50px;}body:not(.rtl) .elementor-5415 .elementor-element.elementor-element-7191d06{left:0px;}body.rtl .elementor-5415 .elementor-element.elementor-element-7191d06{right:0px;}.elementor-5415 .elementor-element.elementor-element-7191d06{bottom:0px;}body.elementor-page-5415:not(.elementor-motion-effects-element-type-background), body.elementor-page-5415 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#7200FF;}@media(max-width:767px){.elementor-5415 .elementor-element.elementor-element-12fbf98{--margin-top:-200px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;}.elementor-5415 .elementor-element.elementor-element-77f534e{--spacer-size:537px;}.elementor-5415 .elementor-element.elementor-element-444c15e > .elementor-widget-container{margin:0px 0px -12px 0px;}.elementor-5415 .elementor-element.elementor-element-444c15e img{width:62%;}.elementor-5415 .elementor-element.elementor-element-4f9eff3 > .elementor-widget-container{--e-transform-scale:0.9;margin:0px 0px 0px 0px;}.elementor-5415 .elementor-element.elementor-element-4f9eff3{text-align:center;}.elementor-5415 .elementor-element.elementor-element-4f9eff3 .elementor-heading-title{font-size:27px;}.elementor-5415 .elementor-element.elementor-element-291db61 > .elementor-widget-container{margin:-10px 0px 0px 0px;}.elementor-5415 .elementor-element.elementor-element-291db61{text-align:center;}.elementor-5415 .elementor-element.elementor-element-291db61 .elementor-heading-title{font-size:13px;}.elementor-5415 .elementor-element.elementor-element-037f99d > .elementor-widget-container{margin:7px 0px -21px 0px;}.elementor-5415 .elementor-element.elementor-element-037f99d img{width:68%;}.elementor-5415 .elementor-element.elementor-element-3a6b3f6 > .elementor-widget-container{margin:-75px 0px 0px 0px;}.elementor-5415 .elementor-element.elementor-element-c8e098b > .elementor-widget-container{--e-transform-scale:0.8;margin:-9px 0px 0px 0px;}.elementor-5415 .elementor-element.elementor-element-c8e098b{text-align:center;}.elementor-5415 .elementor-element.elementor-element-c8e098b .elementor-heading-title{font-size:10px;}.elementor-5415 .elementor-element.elementor-element-7ab0a9e img{width:83%;}.elementor-5415 .elementor-element.elementor-element-9876363{--spacer-size:160px;}.elementor-5415 .elementor-element.elementor-element-7191d06 > .elementor-widget-container{margin:0px 0px -42px 0px;}.elementor-5415 .elementor-element.elementor-element-7191d06{z-index:1000;}}/* Start custom CSS for container, class: .elementor-element-12fbf98 */.mesh-test{
+    background-color:hsla(256,100%,65%,1);
+background-image:
+radial-gradient(at 21% 68%, hsla(252,100%,50%,1) 0px, transparent 50%),
+radial-gradient(at 83% 11%, hsla(237,100%,67%,1) 0px, transparent 50%);
+
+
+
+animation: gradient 13s ease infinite;
+    background-size: 200% 200%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 20%;
+	}
+	25% {
+		background-position: 100% 50%;
+	}
+	50% {
+		background-position: 50% 70%;
+	}
+	100% {
+		background-position: 0% 20%;
+	}
+}/* End custom CSS */
